@@ -1,0 +1,32 @@
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+/*Can be changed the color */
+
+body { font-family: sans-serif; 
+	background-color:black;
+	width: 100%;
+	height: 100%;
+
+}
+
+.carousel {
+  /*background: white;*/
+}
+
+.carousel-cell {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  display: block;
+  /*height: 200px;*/
+  height: 100vh;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel-cell img {
+    height: 100vh;
+  }
+}
