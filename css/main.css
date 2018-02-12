@@ -19,23 +19,23 @@ body, html {
 }
 .bgimg-1 {
   
-  background-image: url("images/img-20141122-wa0001.jpg");
-    background-size: contain;                      /* <------ */
-    background-repeat: no-repeat;
-    background-position: center center;              /* optional, center the image */
+  background-image: url("../images/img-20141122-wa0001.jpg");
+  background-size: contain;                      /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;              /* optional, center the image */
 
 
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("images/img-20141117-wa0002.jpg");
+  background-image: url("../images/img-20141117-wa0002.jpg");
   min-height: 400px;
 }
 
 /*Change this image*/
 .bgimg-3 {
-  background-image: url("images/received_960707697293493.jpeg");
+  background-image: url("../images/img-20140329-wa0007.jpg");
   min-height: 200px;
 }
 
@@ -150,6 +150,3 @@ body{
     transform:scale(1) rotate(-45deg);
   }
 }
-
-
-
